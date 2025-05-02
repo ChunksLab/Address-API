@@ -1,0 +1,39 @@
+{
+  "name": "address-api",
+  "version": "1.0.0",
+  "description": "Address api for web sites",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx tsc",
+    "start": "node dist/index.js",
+    "dev": "nodemon src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChunksLab/Address-API.git"
+  },
+  "author": "ChunksLab, amownyy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ChunksLab/Address-API/issues"
+  },
+  "homepage": "https://github.com/ChunksLab/Address-API#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express-async-handler": "^1.2.0",
+    "mongoose": "^8.13.1",
+    "morgan": "^1.10.0",
+    "runtypes": "^7.0.4"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.1",
+    "@types/module-alias": "^2.0.4",
+    "@types/morgan": "^1.9.9",
+    "express": "^5.1.0",
+    "nodemon": "^3.1.9",
+    "ts-node": "^10.9.2",
+    "tsconfig-paths": "^4.2.0",
+    "typescript": "^5.8.2"
+  }
+}
